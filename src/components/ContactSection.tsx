@@ -57,14 +57,14 @@ export const ContactSection = () => {
           'Accept': 'application/json'
         },
         body: JSON.stringify({
-          name: formData.name,
-          email: formData.email,
-          company: formData.company,
-          message: formData.message,
-          _subject: `New Portfolio Inquiry from ${formData.name} (${formData.company})`,
-          _replyto: formData.email,
-          _template: 'table',
-          _captcha: 'false'
+          'Name': formData.name,
+          'Email': formData.email,
+          'Company / Organization': formData.company,
+          'Message': formData.message,
+          '_subject': `New Portfolio Inquiry: ${formData.name} (${formData.company})`,
+          '_replyto': formData.email,
+          '_template': 'table',
+          '_captcha': 'false'
         })
       });
 
