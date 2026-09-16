@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://siva-n.dev/sitemap.xml
